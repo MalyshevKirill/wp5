@@ -1,0 +1,31 @@
+.buyButton {
+    border-radius: 10px;
+    padding: 5px 70px !important;
+}
+
+.item {
+    margin-bottom: 30px !important;
+    overflow: hidden;
+    flex-wrap: wrap;
+}
+
+.purchases {
+    flex: 1
+}
+
+.controls {
+    width: 170px;
+
+}
+
+.purchButton, .purchCount {
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+}
+
+.purchButton {
+    font-size: 30px !important;
+    font-weight: 800;
+    position: relative;
+}

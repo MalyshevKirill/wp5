@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="/pages/styles/all.css">
+    <link rel="stylesheet" href="/pages/styles/main.css">
+    <title>Vinyl Shark</title>
+  </head>
+  <body class="d-flex flex-column">
+    <header> 
+      <div class="navbar-expand-md">
+        <div class="bg-danger">
+          <div class="navbar navbar-light">
+            <div class="container-md p-0 d-flex">
+              <img src="/images/logo.png" alt="logo" height="68" class="logo">
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <img src="/images/menu.png" alt="menu" height="32px">
+              </button>
+              <div class="d-md-flex d-none align-items-center m-0">
+                <div class="d-flex align-items-center fs-4">
+                  <img src="/images/phone.png" height="42px" alt="phone number">
+                  <span class="text-white fw-bold mx-2">99-99-99</span>
+                </div>
+                <div class="cart-icon">
+                  <a href="/pages/cart.html">
+                    <img src="/images/cart.png" alt="cart" height="42px">
+                  </a>
+                </div>
+              </div>
+          </div>
+        </div>
+        <div class="menu collapse navbar-collapse w-100 bg-danger" id="navbarNav">
+          <nav class="container-md navbar-nav p-0">
+            <ul class="nav flex-md-row flex-column border-0 breadcrumb fs-4 text-white m-0">
+              <li class="nav-item d-flex justify-content-center breadcrumb-item p-0">
+                <a href="/pages/main.html" class="nav-link active border-0" id="home-tab" role="tab" aria-controls="home" aria-selected="true">Home</a>
+              </li>
+              <li class="nav-item d-flex justify-content-center breadcrumb-item p-0">
+                <a href="/pages/catalog.html" class="nav-link border-0">Catalog</a>
+              </li>
+              <li class="nav-item d-flex justify-content-center breadcrumb-item p-0">
+                <a href="/pages/main.html" class="nav-link disabled border-0">About us</a>
+              </li>
+              <li class="nav-item d-flex justify-content-center breadcrumb-item d-flex d-md-none p-0">
+                <a href="/pages/cart.html" class="nav-link border-0">Cart</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
+    <main>
+      <div class="container-md bg-white p-0 pb-3">
+        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner ratio ratio-16x9">
+            <div class="carousel-item active">
+              <img src="/images/p1.png" class="d-block w-100 h-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="/images/p2.png" class="d-block w-100 h-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="/images/p3.png" class="d-block w-100 h-100" alt="...">
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon bg-danger" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+            <span class="carousel-control-next-icon bg-danger" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+        <div>
+          <div>
+            <h2 class="text-center my-3 fs-2 fw-bold">About Records</h2>
+            <div class="row mx-1">
+              <img src="/images/main1.png" alt="plastinka" class="col-xl-4 col-12 pic">
+              <p class="col-xl-8 text-justify fs-5 col-12">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse aliquam nunc et porta euismod. Fusce in lacus risus. Vestibulum scelerisque tellus nisl, condimentum lacinia urna placerat vel. Phasellus vel nunc at magna placerat aliquam non sit amet sapien. Proin non consequat nisi. Proin sed enim non augue ornare ornare. Mauris varius arcu eget dui fringilla sodales. Vivamus arcu mauris, tincidunt fringilla iaculis non, auctor et dui. Proin et mi et mauris vulputate finibus. Quisque volutpat nulla id neque tincidunt finibus in vitae ante. Ut pulvinar pellentesque fermentum. Quisque condimentum interdum urna, eget interdum lacus faucibus hendrerit. Nullam tempor malesuada leo a consectetur. Integer neque purus, varius accumsan facilisis ac, eleifend dignissim odio.Nunc pellentesque dolor a placerat auctor. Duis laoreet quis dui nec eleifend. Quisque convallis augue a urna sagittis facilisis.
+              </p>
+            </div>
+          </div>
+          <div>
+            <h2 class="text-center my-3 fs-2 fw-bold">Bestseller</h2>
+            <div class="row mx-1">
+              <img src="/images/main2.png" alt="plastinka" class="col-xl-4 col-12 pic">
+              <p class="col-xl-8 text-justify fs-5 col-12">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse aliquam nunc et porta euismod. Fusce in lacus risus. Vestibulum scelerisque tellus nisl, condimentum lacinia urna placerat vel. Phasellus vel nunc at magna placerat aliquam non sit amet sapien. Proin non consequat nisi. Proin sed enim non augue ornare ornare. Mauris varius arcu eget dui fringilla sodales. Vivamus arcu mauris, tincidunt fringilla iaculis non, auctor et dui. Proin et mi et mauris vulputate finibus. Quisque volutpat nulla id neque tincidunt finibus in vitae ante. Ut pulvinar pellentesque fermentum. Quisque condimentum interdum urna, eget interdum lacus faucibus hendrerit. Nullam tempor malesuada leo a consectetur. Integer neque purus, varius accumsan facilisis ac, eleifend dignissim odio.Nunc pellentesque dolor a placerat auctor. Duis laoreet quis dui nec eleifend. Quisque convallis augue a urna sagittis facilisis.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer class="bg-danger d-flex align-items-center justify-content-center fs-3 text-white">
+      <span>© 2021 | All rights reserved</span>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  </body>
+</html>

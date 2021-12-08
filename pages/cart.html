@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="/pages/styles/all.css">
+    <link rel="stylesheet" href="/pages/styles/cart.css">
+    <title>Vinyl Shark</title>
+  </head>
+  <body class="d-flex flex-column">
+    <header> 
+      <div class="navbar-expand-md">
+        <div class="bg-danger">
+          <div class="navbar navbar-light">
+            <div class="container-md p-0 d-flex">
+              <img src="/images/logo.png" alt="logo" height="68" class="logo">
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <img src="/images/menu.png" alt="menu" height="32px">
+              </button>
+              <div class="d-md-flex d-none align-items-center m-0">
+                <div class="d-flex align-items-center fs-4">
+                  <img src="/images/phone.png" height="42px" alt="phone number">
+                  <span class="text-white fw-bold mx-2">99-99-99</span>
+                </div>
+                <div class="cart-icon">
+                  <a href="/pages/cart.html">
+                    <img src="/images/cart.png" alt="cart" height="42px">
+                  </a>
+                </div>
+              </div>
+          </div>
+        </div>
+        <div class="menu collapse navbar-collapse w-100 bg-danger" id="navbarNav">
+          <nav class="container-md navbar-nav p-0">
+            <ul class="nav flex-md-row flex-column border-0 breadcrumb fs-4 text-white m-0">
+              <li class="nav-item d-flex justify-content-center breadcrumb-item p-0">
+                <a href="/pages/main.html" class="nav-link border-0" id="home-tab" role="tab" aria-controls="home" aria-selected="true">Home</a>
+              </li>
+              <li class="nav-item d-flex justify-content-center breadcrumb-item p-0">
+                <a href="/pages/catalog.html" class="nav-link border-0">Catalog</a>
+              </li>
+              <li class="nav-item d-flex justify-content-center breadcrumb-item p-0">
+                <a href="/pages/main.html" class="nav-link disabled border-0">About us</a>
+              </li>
+              <li class="nav-item d-flex justify-content-center breadcrumb-item d-flex d-md-none p-0">
+                <a href="/pages/cart.html" class="nav-link active border-0">Cart</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
+    <main class="d-flex">
+      <div class="container-md p-0 text-center py-3 d-flex flex-column align-items-center">
+        <h2 class="fs-1">Cart</h2>
+        <div class="purchases w-100 p-md-0 px-3" id="purchases">
+
+        </div>
+        <button class="text-white border-0 px-5 bg-danger fs-3 buyButton">Buy</button>
+      </div>
+    </main>
+    <footer class="bg-danger d-flex align-items-center justify-content-center fs-3 text-white">
+      <span>© 2021 | All rights reserved</span>
+    </footer>
+    <script src="/scripts/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  </body>
+</html>

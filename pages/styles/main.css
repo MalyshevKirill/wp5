@@ -1,0 +1,15 @@
+.carousel-control-prev-icon,.carousel-control-next-icon {
+    border-radius: 50%;
+    padding: 20px;
+}
+
+.pic {
+    height: 250px;
+    object-fit: cover;
+}
+
+@media (min-width: 1200px) { 
+    .pic {
+        height: 360px !important;
+    }
+}
