@@ -11,8 +11,8 @@ const something = [
         "number": Math.floor(Math.random()*100)
     },
     {
-        "name": "Muse: The Resistance",
-        "product": "The Resistance",
+        "name": "Muse: Absolution",
+        "product": "Absolution",
         "author": "Muse",
         "year": "2009",
         "label": "Warner Bros. Record",
@@ -21,8 +21,8 @@ const something = [
         "price": `${Math.floor(Math.random()*10000)} ₽`,
         "number": Math.floor(Math.random()*100)
     },    {
-        "name": "Muse: The Resistance",
-        "product": "The Resistance",
+        "name": "Muse: The 2nd Law",
+        "product": "The 2nd Law",
         "author": "Muse",
         "year": "2009",
         "label": "Warner Bros. Record",
@@ -31,8 +31,8 @@ const something = [
         "price": `${Math.floor(Math.random()*10000)} ₽`,
         "number": Math.floor(Math.random()*100)
     },    {
-        "name": "Muse: The Resistance",
-        "product": "The Resistance",
+        "name": "Muse: Origin of Symmetry",
+        "product": "Origin of Symmetry",
         "author": "Muse",
         "year": "2009",
         "label": "Warner Bros. Record",
@@ -41,8 +41,8 @@ const something = [
         "price": `${Math.floor(Math.random()*10000)} ₽`,
         "number": Math.floor(Math.random()*100)
     },    {
-        "name": "Muse: The Resistance",
-        "product": "The Resistance",
+        "name": "Muse: Drones",
+        "product": "Drones",
         "author": "Muse",
         "year": "2009",
         "label": "Warner Bros. Record",
@@ -732,7 +732,7 @@ const displayProducts = (products) => {
     products = products.slice(currentPage*countOnPage-countOnPage, currentPage*countOnPage)
     products.forEach((product, index)=> {
         const catalog = document.getElementById('catalog')
-        catalog.innerHTML += `<div class="catalogItem cursor-pointer bg-white p-3 col" data-bs-toggle="modal" onclick="changeModal(${currentPage*countOnPage-countOnPage+index})" data-bs-target="#exampleModal">
+        catalog.innerHTML += `<div class="catalogItem cursor-pointer bg-white p-3 col d-flex flex-column justify-content-between" data-bs-toggle="modal" onclick="changeModal(${currentPage*countOnPage-countOnPage+index})" data-bs-target="#exampleModal">
             <img src="${product.image}" width="100%" alt="resistance">
             <p class="fs-5 my-3 fw-bold">${product.author}: ${product.product}</p>
             <span class="fw-bolder fs-5">${product.price}</span>

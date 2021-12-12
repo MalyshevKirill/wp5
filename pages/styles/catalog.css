@@ -1,6 +1,11 @@
 .catalogItem {
     cursor: pointer;
     margin: 5px 5px;
+    transition: 2s cubic-bezier(0.075, 0.82, 0.165, 1) 0s;
+}
+
+.catalogItem:hover {
+    transform: scale(1.03);
 }
 
 .add-cart-button {
@@ -35,6 +40,11 @@
     justify-self: flex-end;
     padding: 10px 0;
     border-radius: 15px;
+    transition: 2s cubic-bezier(0.075, 0.82, 0.165, 1) 0s;
+}
+
+.add-button:hover {
+    background-color: #ff000c !important;
 }
 
 #paginator {
@@ -50,10 +60,15 @@
     cursor: pointer;
     font-size: 25px;
     user-select: none;
+    transition: 2s cubic-bezier(0.075, 0.82, 0.165, 1) 0s;
+}
+
+.pagButton:hover {
+    background-color: #ff000c !important;
 }
 
 .activePage { 
-    background-color: #ff000c !important;
+    background-color: #c4000a !important;
 }
 
 @media (max-width: 768px) { 

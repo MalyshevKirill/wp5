@@ -1,6 +1,11 @@
 .buyButton {
     border-radius: 10px;
     padding: 5px 70px !important;
+    transition: background-color 2s cubic-bezier(0.075, 0.82, 0.165, 1) 0s;
+}
+
+.buyButton:hover {
+    background-color: #ff000c !important;
 }
 
 .item {
@@ -15,13 +20,18 @@
 
 .controls {
     width: 170px;
-
 }
 
 .purchButton, .purchCount {
+    background-color: #ff000c;
     border-radius: 50%;
     height: 50px;
     width: 50px;
+    transition: background-color 2s cubic-bezier(0.075, 0.82, 0.165, 1) 0s;
+}
+
+.purchButton:hover {
+    background-color: #ff000c !important;
 }
 
 .purchButton {
