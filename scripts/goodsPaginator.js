@@ -690,6 +690,296 @@ const something = [
         "image": "/images/main2.png",
         "price": `${Math.floor(Math.random()*10000)} ₽`,
         "number": Math.floor(Math.random()*100)
+    },    {
+        "name": "Muse: The Resistance",
+        "product": "The Resistance",
+        "author": "Muse",
+        "year": "2009",
+        "label": "Warner Bros. Record",
+        "format": "LP",
+        "image": "/images/main2.png",
+        "price": `${Math.floor(Math.random()*10000)} ₽`,
+        "number": Math.floor(Math.random()*100)
+    },    {
+        "name": "Muse: The Resistance",
+        "product": "The Resistance",
+        "author": "Muse",
+        "year": "2009",
+        "label": "Warner Bros. Record",
+        "format": "LP",
+        "image": "/images/main2.png",
+        "price": `${Math.floor(Math.random()*10000)} ₽`,
+        "number": Math.floor(Math.random()*100)
+    },    {
+        "name": "Muse: The Resistance",
+        "product": "The Resistance",
+        "author": "Muse",
+        "year": "2009",
+        "label": "Warner Bros. Record",
+        "format": "LP",
+        "image": "/images/main2.png",
+        "price": `${Math.floor(Math.random()*10000)} ₽`,
+        "number": Math.floor(Math.random()*100)
+    },    {
+        "name": "Muse: The Resistance",
+        "product": "The Resistance",
+        "author": "Muse",
+        "year": "2009",
+        "label": "Warner Bros. Record",
+        "format": "LP",
+        "image": "/images/main2.png",
+        "price": `${Math.floor(Math.random()*10000)} ₽`,
+        "number": Math.floor(Math.random()*100)
+    },    {
+        "name": "Muse: The Resistance",
+        "product": "The Resistance",
+        "author": "Muse",
+        "year": "2009",
+        "label": "Warner Bros. Record",
+        "format": "LP",
+        "image": "/images/main2.png",
+        "price": `${Math.floor(Math.random()*10000)} ₽`,
+        "number": Math.floor(Math.random()*100)
+    },    {
+        "name": "Muse: The Resistance",
+        "product": "The Resistance",
+        "author": "Muse",
+        "year": "2009",
+        "label": "Warner Bros. Record",
+        "format": "LP",
+        "image": "/images/main2.png",
+        "price": `${Math.floor(Math.random()*10000)} ₽`,
+        "number": Math.floor(Math.random()*100)
+    },    {
+        "name": "Muse: The Resistance",
+        "product": "The Resistance",
+        "author": "Muse",
+        "year": "2009",
+        "label": "Warner Bros. Record",
+        "format": "LP",
+        "image": "/images/main2.png",
+        "price": `${Math.floor(Math.random()*10000)} ₽`,
+        "number": Math.floor(Math.random()*100)
+    },    {
+        "name": "Muse: The Resistance",
+        "product": "The Resistance",
+        "author": "Muse",
+        "year": "2009",
+        "label": "Warner Bros. Record",
+        "format": "LP",
+        "image": "/images/main2.png",
+        "price": `${Math.floor(Math.random()*10000)} ₽`,
+        "number": Math.floor(Math.random()*100)
+    },    {
+        "name": "Muse: The Resistance",
+        "product": "The Resistance",
+        "author": "Muse",
+        "year": "2009",
+        "label": "Warner Bros. Record",
+        "format": "LP",
+        "image": "/images/main2.png",
+        "price": `${Math.floor(Math.random()*10000)} ₽`,
+        "number": Math.floor(Math.random()*100)
+    },    {
+        "name": "Muse: The Resistance",
+        "product": "The Resistance",
+        "author": "Muse",
+        "year": "2009",
+        "label": "Warner Bros. Record",
+        "format": "LP",
+        "image": "/images/main2.png",
+        "price": `${Math.floor(Math.random()*10000)} ₽`,
+        "number": Math.floor(Math.random()*100)
+    },    {
+        "name": "Muse: The Resistance",
+        "product": "The Resistance",
+        "author": "Muse",
+        "year": "2009",
+        "label": "Warner Bros. Record",
+        "format": "LP",
+        "image": "/images/main2.png",
+        "price": `${Math.floor(Math.random()*10000)} ₽`,
+        "number": Math.floor(Math.random()*100)
+    },    {
+        "name": "Muse: The Resistance",
+        "product": "The Resistance",
+        "author": "Muse",
+        "year": "2009",
+        "label": "Warner Bros. Record",
+        "format": "LP",
+        "image": "/images/main2.png",
+        "price": `${Math.floor(Math.random()*10000)} ₽`,
+        "number": Math.floor(Math.random()*100)
+    },    {
+        "name": "Muse: The Resistance",
+        "product": "The Resistance",
+        "author": "Muse",
+        "year": "2009",
+        "label": "Warner Bros. Record",
+        "format": "LP",
+        "image": "/images/main2.png",
+        "price": `${Math.floor(Math.random()*10000)} ₽`,
+        "number": Math.floor(Math.random()*100)
+    },    {
+        "name": "Muse: The Resistance",
+        "product": "The Resistance",
+        "author": "Muse",
+        "year": "2009",
+        "label": "Warner Bros. Record",
+        "format": "LP",
+        "image": "/images/main2.png",
+        "price": `${Math.floor(Math.random()*10000)} ₽`,
+        "number": Math.floor(Math.random()*100)
+    },    {
+        "name": "Muse: The Resistance",
+        "product": "The Resistance",
+        "author": "Muse",
+        "year": "2009",
+        "label": "Warner Bros. Record",
+        "format": "LP",
+        "image": "/images/main2.png",
+        "price": `${Math.floor(Math.random()*10000)} ₽`,
+        "number": Math.floor(Math.random()*100)
+    },    {
+        "name": "Muse: The Resistance",
+        "product": "The Resistance",
+        "author": "Muse",
+        "year": "2009",
+        "label": "Warner Bros. Record",
+        "format": "LP",
+        "image": "/images/main2.png",
+        "price": `${Math.floor(Math.random()*10000)} ₽`,
+        "number": Math.floor(Math.random()*100)
+    },    {
+        "name": "Muse: The Resistance",
+        "product": "The Resistance",
+        "author": "Muse",
+        "year": "2009",
+        "label": "Warner Bros. Record",
+        "format": "LP",
+        "image": "/images/main2.png",
+        "price": `${Math.floor(Math.random()*10000)} ₽`,
+        "number": Math.floor(Math.random()*100)
+    },    {
+        "name": "Muse: The Resistance",
+        "product": "The Resistance",
+        "author": "Muse",
+        "year": "2009",
+        "label": "Warner Bros. Record",
+        "format": "LP",
+        "image": "/images/main2.png",
+        "price": `${Math.floor(Math.random()*10000)} ₽`,
+        "number": Math.floor(Math.random()*100)
+    },    {
+        "name": "Muse: The Resistance",
+        "product": "The Resistance",
+        "author": "Muse",
+        "year": "2009",
+        "label": "Warner Bros. Record",
+        "format": "LP",
+        "image": "/images/main2.png",
+        "price": `${Math.floor(Math.random()*10000)} ₽`,
+        "number": Math.floor(Math.random()*100)
+    },    {
+        "name": "Muse: The Resistance",
+        "product": "The Resistance",
+        "author": "Muse",
+        "year": "2009",
+        "label": "Warner Bros. Record",
+        "format": "LP",
+        "image": "/images/main2.png",
+        "price": `${Math.floor(Math.random()*10000)} ₽`,
+        "number": Math.floor(Math.random()*100)
+    },    {
+        "name": "Muse: The Resistance",
+        "product": "The Resistance",
+        "author": "Muse",
+        "year": "2009",
+        "label": "Warner Bros. Record",
+        "format": "LP",
+        "image": "/images/main2.png",
+        "price": `${Math.floor(Math.random()*10000)} ₽`,
+        "number": Math.floor(Math.random()*100)
+    },    {
+        "name": "Muse: The Resistance",
+        "product": "The Resistance",
+        "author": "Muse",
+        "year": "2009",
+        "label": "Warner Bros. Record",
+        "format": "LP",
+        "image": "/images/main2.png",
+        "price": `${Math.floor(Math.random()*10000)} ₽`,
+        "number": Math.floor(Math.random()*100)
+    },    {
+        "name": "Muse: The Resistance",
+        "product": "The Resistance",
+        "author": "Muse",
+        "year": "2009",
+        "label": "Warner Bros. Record",
+        "format": "LP",
+        "image": "/images/main2.png",
+        "price": `${Math.floor(Math.random()*10000)} ₽`,
+        "number": Math.floor(Math.random()*100)
+    },    {
+        "name": "Muse: The Resistance",
+        "product": "The Resistance",
+        "author": "Muse",
+        "year": "2009",
+        "label": "Warner Bros. Record",
+        "format": "LP",
+        "image": "/images/main2.png",
+        "price": `${Math.floor(Math.random()*10000)} ₽`,
+        "number": Math.floor(Math.random()*100)
+    },    {
+        "name": "Muse: The Resistance",
+        "product": "The Resistance",
+        "author": "Muse",
+        "year": "2009",
+        "label": "Warner Bros. Record",
+        "format": "LP",
+        "image": "/images/main2.png",
+        "price": `${Math.floor(Math.random()*10000)} ₽`,
+        "number": Math.floor(Math.random()*100)
+    },    {
+        "name": "Muse: The Resistance",
+        "product": "The Resistance",
+        "author": "Muse",
+        "year": "2009",
+        "label": "Warner Bros. Record",
+        "format": "LP",
+        "image": "/images/main2.png",
+        "price": `${Math.floor(Math.random()*10000)} ₽`,
+        "number": Math.floor(Math.random()*100)
+    },    {
+        "name": "Muse: The Resistance",
+        "product": "The Resistance",
+        "author": "Muse",
+        "year": "2009",
+        "label": "Warner Bros. Record",
+        "format": "LP",
+        "image": "/images/main2.png",
+        "price": `${Math.floor(Math.random()*10000)} ₽`,
+        "number": Math.floor(Math.random()*100)
+    },    {
+        "name": "Muse: The Resistance",
+        "product": "The Resistance",
+        "author": "Muse",
+        "year": "2009",
+        "label": "Warner Bros. Record",
+        "format": "LP",
+        "image": "/images/main2.png",
+        "price": `${Math.floor(Math.random()*10000)} ₽`,
+        "number": Math.floor(Math.random()*100)
+    },    {
+        "name": "Muse: The Resistance",
+        "product": "The Resistance",
+        "author": "Muse",
+        "year": "2009",
+        "label": "Warner Bros. Record",
+        "format": "LP",
+        "image": "/images/main2.png",
+        "price": `${Math.floor(Math.random()*10000)} ₽`,
+        "number": Math.floor(Math.random()*100)
     },
 
 ]
