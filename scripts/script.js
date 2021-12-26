@@ -51,8 +51,17 @@ const addItem = (item, cart = Object.assign({}, localStorage)) => {
     fillLocalStorage(cart)
 }
 
+const showTooltip = () => {
+    const tooltipEl = document.getElementById('tooltip');
+    tooltipEl.style.left = '30px'
+    setTimeout(() => {
+        tooltipEl.style.left = '-300px'
+    }, 2000);
+}
+
 const addNewItem = (item) => {
     localStorage.setItem(item, 1)
+    showTooltip()
 }
 
 if(document.getElementById('purchases')) {

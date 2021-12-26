@@ -8,6 +8,10 @@
     object-fit: cover;
 }
 
+#timer {
+    z-index: 10000;
+}
+
 @media (min-width: 1200px) { 
     .pic {
         height: 360px !important;
