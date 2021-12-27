@@ -191,7 +191,7 @@
     const setTimer = (promotionEndTime) => {
       const diff = promotionEndTime.getTime() - Date.now()
       const diffTimer = [Math.floor(diff / (1000 * 60 * 60)), Math.floor((diff / (1000 * 60)) % 60), Math.floor((diff / 1000) % 60)]
-      document.getElementById('timer').innerHTML = diff > 0 ? `${diffTimer[0] > 10 ? diffTimer[0] : '0' + diffTimer[0]}:${diffTimer[1] > 10 ? diffTimer[1] : '0' + diffTimer[1]}:${diffTimer[2] > 10 ? diffTimer[2] : '0' + diffTimer[2]}`:'Promotion is over'
+      document.getElementById('timer').innerHTML = diff > 0 ? `${diffTimer[0] > 9 ? diffTimer[0] : '0' + diffTimer[0]}:${diffTimer[1] > 9 ? diffTimer[1] : '0' + diffTimer[1]}:${diffTimer[2] > 9 ? diffTimer[2] : '0' + diffTimer[2]}`:'Promotion is over'
     }
     setTimer(promotionEndTime)
     setInterval(() => setTimer(promotionEndTime), 1000)
