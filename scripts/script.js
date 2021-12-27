@@ -29,7 +29,9 @@ const fillCart = (cart) => {
         <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-dash" viewBox="0 0 16 16">
             <path d="M4 8a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7A.5.5 0 0 1 4 8z"/>
         </svg>
-        </button></div>`
+        </button>
+        <button onclick=removeItemFull(this) class="d-flex justify-content-center align-items-center border-0 bg-danger text-white purchButton">x</button>
+        </div>`
         parent.appendChild(child)
     }
 }
@@ -42,13 +44,27 @@ const removeItem = (item, cart = Object.assign({}, localStorage)) => {
     } else {
         localStorage.removeItem(item)
         fillCart(Object.assign({}, localStorage))
+        setCount()
     }
 }
 
+const removeItemFull = (item) => {
+    localStorage.removeItem(item.parentNode.parentNode.name)
+    fillCart(Object.assign({}, localStorage))
+    setCount()
+}
+
 const addItem = (item, cart = Object.assign({}, localStorage)) => {
+
     item = item.parentNode.parentNode.name;
     cart[item]++
     fillLocalStorage(cart)
+}
+
+const clearCart = () => {
+    localStorage.clear()
+    fillCart(Object.assign({}, localStorage))
+    setCount()
 }
 
 const showTooltip = () => {
@@ -61,6 +77,7 @@ const showTooltip = () => {
 
 const addNewItem = (item) => {
     localStorage.setItem(item, 1)
+    setCount()
     showTooltip()
 }
 

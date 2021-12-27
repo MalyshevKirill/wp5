@@ -31,8 +31,9 @@
                 <span class="text-white fw-bold mx-2">99-99-99</span>
               </div>
               <div class="cart-icon">
-                <a href="/pages/cart.html">
+                <a href="/pages/cart.html" class="position-relative">
                   <img src="/images/cart.png" alt="cart" height="42px">
+                  <span id="cartCount" class="position-absolute bg-white rounded-circle d-flex justify-content-center align-items-center" style="height: 20px; width: 20px; right: -10px; top: -20px"></span>
                 </a>
               </div>
             </div>
@@ -175,6 +176,7 @@
         d="m7.247 4.86-4.796 5.481c-.566.647-.106 1.659.753 1.659h9.592a1 1 0 0 0 .753-1.659l-4.796-5.48a1 1 0 0 0-1.506 0z" />
     </svg>
   </button>
+  <script src="/scripts/cartCount.js"></script>
   <script src="/scripts/chat.js"></script>
   <script src="/scripts/btnTop.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
@@ -190,8 +192,8 @@
 
     const setTimer = (promotionEndTime) => {
       const diff = promotionEndTime.getTime() - Date.now()
-      const diffTimer = [Math.floor(diff / (1000 * 60 * 60)), Math.floor((diff / (1000 * 60)) % 60), Math.floor((diff / 1000) % 60)]
-      document.getElementById('timer').innerHTML = diff > 0 ? `${diffTimer[0] > 9 ? diffTimer[0] : '0' + diffTimer[0]}:${diffTimer[1] > 9 ? diffTimer[1] : '0' + diffTimer[1]}:${diffTimer[2] > 9 ? diffTimer[2] : '0' + diffTimer[2]}`:'Promotion is over'
+      const diffTimer = [Math.floor(diff / (3600 * 1000 * 24)),  Math.floor(diff / (1000 * 60 * 60) % 24), Math.floor((diff / (1000 * 60)) % 60), Math.floor((diff / 1000) % 60)]
+      document.getElementById('timer').innerHTML = diff > 0 ? `${diffTimer[0]}:${diffTimer[1] > 9 ? diffTimer[1] : '0' + diffTimer[1]}:${diffTimer[2] > 9 ? diffTimer[2] : '0' + diffTimer[2]}:${diffTimer[3] > 9 ? diffTimer[3] : '0' + diffTimer[3]}`:'Promotion is over'
     }
     setTimer(promotionEndTime)
     setInterval(() => setTimer(promotionEndTime), 1000)
